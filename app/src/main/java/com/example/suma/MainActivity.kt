@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
 
         btnSuma.setOnClickListener {
-            val resul = numero1.text.toString().toInt() + numero2.text.toString().toInt()
-            Toast.makeText(this, resul, Toast.LENGTH_LONG).show()
+            val resultado  = numero1.text.toString().toInt() + numero2.text.toString().toInt()
+            Toast.makeText(this, "${ resultado }", Toast.LENGTH_LONG).show()
         }
     }
 }
